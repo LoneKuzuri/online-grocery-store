@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listings - Puzu Grocery Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="products-header">
+        <nav>
+            <a href="index.html" class="logo-link">
+                <h1 class="logo">Puzu Grocery Store</h1>
+            </a>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="product.html">PRODUCTS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <h1>Our Products</h1>
+            <p>Fresh groceries delivered to your door</p>
+        </div>
+    </header>
+
+    <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Search for products...">
+        <button id="searchBtn">
+            <i class="fas fa-search"></i>
+        </button>
+    </div>    
+
+
+    <!-- Product Categories Section -->
+    <section class="categories">
+        <h2>Product Categories</h2>
+        <div class="category-list">
+            <a href="#fruits" class="category-link">Fruits</a>
+            <a href="#vegetables" class="category-link">Vegetables</a>
+            <a href="#oil" class="category-link">Oil</a>
+            <a href="#dairy-products" class="category-link">Dairy Products</a>
+            <a href="#biscuits" class="category-link">Biscuits</a>
+        </div>
+    </section>
+
+    <!-- Product Listings Section -->
+
+    <!-- Fruits Section -->
+    <section id="fruits" class="products-listings">
+        <h2>Fruits</h2>
+        <div class="products-grid">
+            <div class="products-item">
+                <img src="bananas.png" alt="Bananas">
+                <h4>Bananas</h4>
+                <p>Rs.10.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="products-item">
+                <img src="pineapple.png" alt="Pineapple">
+                <h4>Pineapple</h4>
+                <p>Rs.50.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="products-item">
+                <img src="aorange.jpeg" alt="Orange">
+                <h4>Orange</h4>
+                <p>Rs.50.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="products-item">
+                <img src="apple.jpeg" alt="Apple">
+                <h4>Apple</h4>
+                <p>Rs.50.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <!-- Add more fruits as needed -->
+        </div>
+    </section>
+
+    <!-- Vegetables Section -->
+    <section id="vegetables" class="products-listings">
+        <h2>Vegetables</h2>
+        <div class="products-grid">
+            <div class="products-item">
+                <img src="tomatoes.png" alt="Tomatoes">
+                <h4>Tomatoes</h4>
+                <p>Rs.15.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="products-item">
+                <img src="pot.jpeg" alt="Potatoes">
+                <h4>Potatoes</h4>
+                <p>Rs.15.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="products-item">
+                <img src="pcum.jpeg" alt="Cucumber">
+                <h4>Cucumber</h4>
+                <p>Rs.15.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="products-item">
+                <img src="plauka.jpeg" alt="g">
+                <h4>Gourd</h4>
+                <p>Rs.15.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="products-item">
+                <img src="pcauli.jpeg" alt="Cauliflower">
+                <h4>Cauliflower</h4>
+                <p>Rs.15.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="products-item">
+                <img src="pdhaniya.jpeg" alt="Coriander">
+                <h4>Coriander</h4>
+                <p>Rs.15.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <!-- Add more vegetables as needed -->
+        </div>
+    </section>
+
+    <!-- Oil Section -->
+    <section id="oil" class="products-listings">
+        <h2>Oil</h2>
+        <div class="products-grid">
+            <div class="products-item">
+                <img src="swastik-oil-500x500.webp" alt="Cooking Oil">
+                <h4>Swastik Oil</h4>
+                <p>Rs.120.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="products-item">
+                <img src="dhara-health-one-f003545a.jpeg" alt="Cooking Oil">
+                <h4>Dhara Oil</h4>
+                <p>Rs.120.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <!-- Add more oil products as needed -->
+        </div>
+    </section>
+
+    <!-- Dairy Products Section -->
+    <section id="dairy-products" class="products-listings">
+        <h2>Dairy Products</h2>
+        <div class="products-grid">
+            <div class="products-item">
+                <img src="milk.jpeg" alt="Milk">
+                <h4>Milk</h4>
+                <p>Rs.30.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="products-item">
+                <img src="2.jpg" alt="Cheese">
+                <h4>Cheese</h4>
+                <p>Rs.900.00/kg</p>
+                <button>Add to Cart</button>
+            </div>
+            <!-- Add more dairy products as needed -->
+        </div>
+    </section>
+
+    <!-- Biscuits Section -->
+    <section id="biscuits" class="products-listings">
+        <h2>Biscuits</h2>
+        <div class="products-grid">
+            <div class="products-item">
+                <img src="20-20.jpg" alt="20-20">
+                <h4>20-20</h4>
+                <p>Rs.10.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="products-item">
+                <img src="oreo.jpeg" alt="Oreo">
+                <h4>Oreo</h4>
+                <p>Rs.20.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <!-- Add more biscuits as needed -->
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2024 Puzu Grocery Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Puzu Grocery Store</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        /* Fade-in animations */
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+        .fade-in {
+            animation: fadeIn 1s ease-in-out forwards;
+        }
+        .fade-delay {
+            animation-delay: 0.5s;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-700">
+
+    <!-- Header Section -->
+    <header class="bg-teal-600 p-6 text-white shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold">Puzu Grocery Store</a>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="index.html" class="hover:text-yellow-300">HOME</a></li>
+                    <li><a href="about.html" class="hover:text-yellow-300">ABOUT</a></li>
+                    <li><a href="product.html" class="hover:text-yellow-300">PRODUCTS</a></li>
+                    <li><a href="contact.html" class="hover:text-yellow-300">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    
+    <!-- About Intro Section -->
+    <section class="bg-cover bg-center h-80 flex items-center justify-center" style="background-image: url('grocery-bg.jpg');">
+        <div class="text-center text-white bg-black bg-opacity-50 p-10 rounded-xl fade-in">
+            <h1 class="text-4xl font-bold">Welcome to Puzu Grocery Store</h1>
+            <p class="mt-4 text-lg">Where quality meets convenience, delivered fresh to your door!</p>
+        </div>
+    </section>
+
+    <!-- Mission and Values Section -->
+    <section class="container mx-auto py-16 px-6">
+        <div class="fade-in">
+            <h2 class="text-3xl font-bold text-teal-600 text-center mb-6">Our Mission</h2>
+            <p class="text-lg text-center mb-8">At Puzu Grocery Store, our mission is to make fresh, high-quality groceries easily accessible to everyone, promoting healthy living and sustainability.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 fade-in fade-delay">
+            <div class="bg-white p-6 shadow-lg hover:shadow-xl transform hover:-translate-y-2 transition duration-300">
+                <i class="fas fa-apple-alt text-4xl text-teal-600 mb-4"></i>
+                <h3 class="text-xl font-semibold mb-2">Freshness</h3>
+                <p>We ensure that only the freshest products reach your doorstep.</p>
+            </div>
+            <div class="bg-white p-6 shadow-lg hover:shadow-xl transform hover:-translate-y-2 transition duration-300">
+                <i class="fas fa-leaf text-4xl text-teal-600 mb-4"></i>
+                <h3 class="text-xl font-semibold mb-2">Quality</h3>
+                <p>Every product undergoes stringent quality checks to meet our high standards.</p>
+            </div>
+            <div class="bg-white p-6 shadow-lg hover:shadow-xl transform hover:-translate-y-2 transition duration-300">
+                <i class="fas fa-smile text-4xl text-teal-600 mb-4"></i>
+                <h3 class="text-xl font-semibold mb-2">Customer Satisfaction</h3>
+                <p>Our priority is ensuring that every customer is happy with their shopping experience.</p>
+            </div>
+            <div class="bg-white p-6 shadow-lg hover:shadow-xl transform hover:-translate-y-2 transition duration-300">
+                <i class="fas fa-recycle text-4xl text-teal-600 mb-4"></i>
+                <h3 class="text-xl font-semibold mb-2">Sustainability</h3>
+                <p>We support eco-friendly practices and work with local farmers.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section class="bg-teal-600 text-white py-16 px-6 text-center">
+        <h2 class="text-3xl font-bold mb-6 fade-in">Our Story</h2>
+        <p class="text-lg mb-8 max-w-2xl mx-auto fade-in fade-delay">Founded in 2022, Puzu Grocery Store started as a family-run business with the goal of simplifying grocery shopping. From our humble beginnings, we have grown into an online marketplace that delivers fresh, healthy food right to your doorstep.</p>
+        <a href="product.html" class="bg-yellow-400 text-black font-bold py-3 px-6 rounded-lg hover:bg-yellow-500 transition duration-300">Shop Now</a>
+    </section>
+
+    <!-- Meet the Team Section -->
+    <section class="container mx-auto py-16 px-6">
+        <h2 class="text-3xl font-bold text-center text-teal-600 mb-10 fade-in">Meet the Team</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 fade-in fade-delay">
+            <div class="bg-white p-6 shadow-lg text-center hover:shadow-xl transition transform hover:-translate-y-2 duration-300">
+                <img src="ceo.jpg" alt="CEO" class="w-24 h-24 mx-auto rounded-full mb-4">
+                <h3 class="text-xl font-semibold mb-2">Jane Doe</h3>
+                <p>Founder & CEO - Jane leads the vision and ensures that our commitment to freshness never waivers.</p>
+            </div>
+            <div class="bg-white p-6 shadow-lg text-center hover:shadow-xl transition transform hover:-translate-y-2 duration-300">
+                <img src="manager.jpg" alt="Manager" class="w-24 h-24 mx-auto rounded-full mb-4">
+                <h3 class="text-xl font-semibold mb-2">John Smith</h3>
+                <p>Operations Manager - John ensures every order is prepared and delivered with care.</p>
+            </div>
+            <!-- Add more team members as needed -->
+        </div>
+    </section>
+
+    <!-- Community Involvement Section -->
+    <section class="bg-gray-100 py-16 px-6">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold text-teal-600 mb-6 fade-in">Supporting Our Community</h2>
+            <p class="text-lg mb-8 fade-in fade-delay">By choosing Puzu Grocery Store, you support local farmers and eco-friendly practices. We are dedicated to building a stronger, healthier community.</p>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="bg-teal-600 text-white py-16 px-6 text-center">
+        <h2 class="text-3xl font-bold mb-6 fade-in">Ready to Shop?</h2>
+        <p class="text-lg mb-8 max-w-2xl mx-auto fade-in fade-delay">Browse our product listings and enjoy fresh groceries delivered right to your door.</p>
+        <a href="product.html" class="bg-yellow-400 text-black font-bold py-3 px-6 rounded-lg hover:bg-yellow-500 transition duration-300">Start Shopping</a>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Puzu Grocery Store. All rights reserved.</p>
+            <ul class="flex justify-center space-x-6 mt-4">
+                <li><a href="#" class="hover:text-yellow-300"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#" class="hover:text-yellow-300"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#" class="hover:text-yellow-300"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
